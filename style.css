@@ -12,6 +12,10 @@ body {
     src: url('KingthingsPetrocklight.ttf');
 }
 
+.nav-logo{
+    height: 40px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -279,6 +283,8 @@ a:hover {
 .mise-en-page{
     display: flex;
 }
+
+
 
 .image-resize-mode{
     width: 100px;
@@ -969,9 +975,7 @@ ul{
 }
 
 @media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
+    
     .b-parallax {
         background-attachment: scroll;
     }
@@ -998,17 +1002,6 @@ ul{
         overflow-x: hidden;
         position: relative;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-    }
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1020,6 +1013,9 @@ ul{
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
+    }
+    .row{
+        margin: 0;
     }
     .site-navigation {
         position: inherit;
